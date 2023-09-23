@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "equivalence-inversion-paper"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "equivalence_inversion_paper"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+litellm = "^0.1.738"
+ipykernel = "^6.25.2"
+python-dotenv = "^1.0.0"
+openai = "^0.28.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
